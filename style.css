@@ -1,0 +1,58 @@
+body
+  font-family: "Helvetica Neue", Helvetica, Arial
+  font-weight: regular
+
+h1, h2
+  text-transform: uppercase
+
+header
+  min-height: 100px
+  background: #29AC51
+  color: #fff
+  text-align: center
+  h1
+    padding: 30px
+    margin: auto
+    font-size: 50px
+    
+#desc
+  max-width: 550px
+  text-align: center
+  margin: auto
+  padding: 50px 0px 25px 0px
+  
+#counter
+  max-width: 500px
+  margin: auto
+  padding: 25px 0 50px 0
+  text-align: center
+  h2
+    font-size: 50px
+    font-family: 'Teko', sans-serif
+  #days
+    font-family: 'Aldrich', sans-serif
+    font-size: 55px
+    padding: 50px 0 50px 0
+    color: red
+  #record
+    font-family: 'Teko', sans-serif
+    font-size: 30px
+    
+#incident-btn
+  padding: 35px 45px 35px 45px
+  max-width: 150px
+  text-align: center
+  margin: auto
+  color: #fff
+  text-transform: uppercase
+  font-size: 30px
+  background: #FF0000
+  border-bottom: solid #A20000 4px
+  cursor: pointer
+  user-select: none
+  &:active
+    
+  
+.btn-text
+  text-align: center
+  padding-top: 15px
