@@ -34,25 +34,5 @@ header
     font-size: 55px
     padding: 50px 0 50px 0
     color: red
-  #record
-    font-family: 'Teko', sans-serif
-    font-size: 30px
-    
-#incident-btn
-  padding: 35px 45px 35px 45px
-  max-width: 150px
-  text-align: center
-  margin: auto
-  color: #fff
-  text-transform: uppercase
-  font-size: 30px
-  background: #FF0000
-  border-bottom: solid #A20000 4px
-  cursor: pointer
-  user-select: none
-  &:active
-    
   
-.btn-text
-  text-align: center
-  padding-top: 15px
+
