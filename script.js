@@ -9,4 +9,4 @@ function days() {
   var difference = Math.round((today - video)/(1000*60*60*24));
     
   alert("Dias sem kayak: " + difference);  
-
+}
