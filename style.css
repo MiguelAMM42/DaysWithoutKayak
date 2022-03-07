@@ -1,39 +1,61 @@
-body
+body{
   font-family: "Helvetica Neue", Helvetica, Arial
   font-weight: regular
+}
 
-h1, h2
+h1 {
+  color: blue;
+  font-family: verdana;
+  font-size: 300%;
+}
+
+p  {
+  color: red;
+  font-family: courier;
+  font-size: 160%;
+}
+
+
+h1, h2{
   text-transform: uppercase
+}
 
-header
+header{
   min-height: 100px
   background: #29AC51
   color: #fff
   text-align: center
-  h1
+  h1{
     padding: 30px
     margin: auto
     font-size: 50px
+  }
+}
     
-#desc
+#desc{
   max-width: 550px
   text-align: center
   margin: auto
   padding: 50px 0px 25px 0px
+}
   
-#counter
+#counter{
   max-width: 500px
   margin: auto
   padding: 25px 0 50px 0
   text-align: center
-  h2
+  h2{
     font-size: 50px
     font-family: 'Teko', sans-serif
-  #days
+  }
+  #days{
     font-family: 'Aldrich', sans-serif
     font-size: 55px
     padding: 50px 0 50px 0
     color: red
+  }
+}
+
 
     
 
