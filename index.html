@@ -1,24 +1,110 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="src/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;500;600&display=swap" rel="stylesheet"> 
+    <title>Days Without a Kayak</title>
+    <meta charset="UTF-8 "/>
   </head>
 
   <body>
-      <header>
-        <h1>I really really want a kayak!</h1>
-      </header>
-      <div id="desc">
-        <p>This shows the number of days since I developed a strange and uncontrollable desire to buy a kayak. I believe it was in 6th of September of 2021 when I almost saw this video:</p>
-        <p><a href="https://www.youtube.com/watch?v=wth7IQXNGJI/">THE LAST WILDERNESS OF SCOTLAND || A canoe expedition into a remote corner of the SCOTTISH HIGHLANDS</a></p>
-        <p>I never watched the video but since then I was haunted by this wish of owning a Kayak.
+
+    <section class="hero">
+      <nav>
+        <img class="logo" src="src/images/logoKayak.png" alt="Kayak">
+        <ul>
+          <li><a href = "#context"> Context</a> </li>
+          <li><a href = "#plans4future"> Plans 4 the Future</a></li>
+          <li><a href = "#numDays"> Number of Days</a></li>
+        </ul>
+      </nav>
+
+
+      <div class="guy-area">
+        <div class="guy">
+          <h1>Miguel Martins</h1>
+          <p>Guy who really wants a kayak and is waiting an</p>
+          <p>eternity to put his hands on one...</p>
+          <p>Kayaks are expensive as fuck!!!</p>
+          <div class="button"><a href = "#numDays">Number of days &#x1F6A3</a></div>
+        </div>
+        <div class="socials">
+          <div><a href="https://www.twitter.com/Miguel_2001SCP" class="social">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="60" height="60" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
+          </a></div>
+        </div>
+
       </div>
-      <div id="counter">
-        <h2>Number of days I am going through without owning a Kayak:</h2>
+    </section>
+
+    <section class="sub-section" id="context">
+      <div class="context">
+        <h2>Context</h2>
+        <h3>Why do I feel such a necessity to buy a Kayak?</h3>
+        <p>Yeah! i gotta have a Kayak...</p>
+      </div>
+      <div class="god-container">
+        <img class="god" src="src/images/Miguel.png" alt="Miguelito"/>
+      </div>
+    </section>
+
+    <section class="sub-section2" id="plans4future">
+      <h2>Plans 4 the Future</h2>
+      <div class="trip-container"> 
+        <div class="trip">
+          <img class="trip-image" src="src/images/med1.jpg" alt="Mediterraneo1">
+          <h3>Possível viagem no Mediterrâneo 1</h3>
+          <p class="subtext">Itinerário </p>
+          <!-- 
+          <hr/> 
+          <p class="subtext"><a href=" " Cenas </a></p>-->
+        </div>
+      </div>
+
+      <div class="trip-container">
+        <div class="trip">
+          <img class="trip-image" src="src/images/med2.jpg" alt="Mediterraneo2">
+          <h3>Possível viagem no Mediterrâneo 2</h3>
+          <p class="subtext">Itinerário </p>
+        </div>
+      </div>
+
+      <div class="trip-container"> 
+        <div class="trip">
+          <img class="trip-image" src="src/images/med3.jpg" alt="Mediterraneo3">
+          <h3>Possível viagem no Mediterrâneo 3</h3>
+          <p class="subtext">Itinerário </p>
+        </div>
+      </div>
+
+      <div class="trip-container">
+        <div class="trip">
+          <img class="trip-image" src="src/images/med4.jpg" alt="Mediterraneo4">
+          <h3>Possível viagem no Mediterrâneo 4</h3>
+          <p class="subtext">Itinerário </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="sub-section2" id="numDays">
+      <h2>Number of days I am going through without owning a Kayak:</h2>
         <div>
           <input type="button" onclick="days()" value="Number of Days">
         </div>
       </div>
+    </section>
+
+    <footer>
+      <h2>
+        Follow my journey:   
+      </h2>
+      <div><a href="https://www.twitter.com/Miguel_2001SCP" class="social">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="60" height="60" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
+      </a></div>
+    </footer>
+
+    <script src="src/script.js"></script>
   </body>
 </html>  
