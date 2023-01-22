@@ -169,6 +169,26 @@ a{
   color: white;
 }
 
+.daysButton{
+  color: white;
+  vertical-align: middle;
+  width:400px;
+  height: 75px;
+  border-radius: 30px;
+  background-color:coral;
+  text-align: center;
+  font-size:30px;
+  font-weight:500;
+  padding-top:10px;
+  padding-bottom: 10px;
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+
+.daysButton:hover{
+  background-color: #ef744b;
+}
+
 
 
 
