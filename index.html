@@ -2,7 +2,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="src/style.css"/>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <link rel="icon" type="image/x-icon" href="src/images/logoKayak.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,7 +18,7 @@
       <nav>
         <img class="logo" src="src/images/logoKayak.png" alt="Kayak">
         <ul>
-          <li><a href = "#context"> Context</a> </li>
+          <li><a href = "#context"> Context</a></li>
           <li><a href = "#plans4future"> Plans 4 the Future</a></li>
           <li><a href = "#daysWhenIKayaked"> Days When I Kayaked</a></li>
           <li><a href = "#numDays"> Number of Days</a></li>
@@ -63,10 +63,10 @@
 
         <div class="trip-container"> 
           <div class="trip">
-            <div class="map" id="map-test"></div>
-            <h3>Teste Leaflet</h3>
-            <p class="subtext">Teste </p>
-            <p class="subtext">Isto vai ficar interessante 🐐 </p>
+            <div class="map" id="spanishMedCoast"></div>
+            <h3>Spanish Mediterranean Coast</h3>
+            <p class="subtext">Gibraltar -> Marbella -> Málaga -> Almeria -> Cartagena -></p>
+            <p class="subtext">-> Benidorm -> Valencia -> Barcelona</p>
           </div>
         </div>
         
@@ -144,7 +144,7 @@
     </footer>
 
     <script src="src/script.js"></script>
-    <script src="src/maps.js"></script>
+    <script type="module" src="src/maps.js"></script>
   </body>
 </html>  
 

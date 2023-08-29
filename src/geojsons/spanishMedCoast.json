@@ -1,8 +1,6 @@
-/*var spanishMedCoastJson = {}
-fetch('./src/geojsons/spanishMedCoast.json').then(response => spanishMedCoastJson = response.json())
-console.log(spanishMedCoastJson.features);*/
-
-var spanishMedCoast = [
+{
+  "type": "FeatureCollection",
+  "features": [
     {
       "type": "Feature",
       "properties": {},
@@ -464,23 +462,5 @@ var spanishMedCoast = [
         "type": "LineString"
       }
     }
-]
-
-var map1 = L.map('spanishMedCoast').setView([41.12447339203317,0.5139676517597138], 5.5);
-
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
-    attribution: '© <a href="https://www.openstreetmap.org">OpenStreetMap</a>'
-}).addTo(map1);
-L.geoJSON(spanishMedCoast).addTo(map1);
-
-/*
-let totalDistance = 0;
-for (let i = 0; i < spanishMedCoast[0].geometry.coordinates.length - 1; i++) {
-    totalDistance += distance(spanishMedCoast[0].geometry.coordinates[i][1], spanishMedCoast[0].geometry.coordinates[i][0], spanishMedCoast[0].geometry.coordinates[i+1][1], spanishMedCoast[0].geometry.coordinates[i+1][0], "K");
+  ]
 }
-
-console.log(totalDistance);
-*/
-
-    
