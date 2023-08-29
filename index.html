@@ -2,6 +2,8 @@
 <html>
   <head>
     <link rel="stylesheet" href="src/style.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <link rel="icon" type="image/x-icon" href="src/images/logoKayak.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,6 +20,7 @@
         <ul>
           <li><a href = "#context"> Context</a> </li>
           <li><a href = "#plans4future"> Plans 4 the Future</a></li>
+          <li><a href = "#daysWhenIKayaked"> Days When I Kayaked</a></li>
           <li><a href = "#numDays"> Number of Days</a></li>
         </ul>
       </nav>
@@ -41,10 +44,13 @@
         <h2>Context</h2>
         <h3>Why do I feel such a necessity to buy a Kayak?</h3>
         <p>This shows the number of days since I developed a strange and uncontrollable desire to buy a kayak. I believe it was in 6th of September of 2021 when I almost saw this video:</p>
-        <iframe class="kayakVideo" src="https://www.youtube.com/embed/wth7IQXNGJI?si=Y75rnPtSsl78WNMd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="videoContainer">
+          <iframe class="kayakVideo" src="https://www.youtube.com/embed/wth7IQXNGJI?si=Y75rnPtSsl78WNMd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
         <!--<p><a href="https://www.youtube.com/watch?v=wth7IQXNGJI/">THE LAST WILDERNESS OF SCOTLAND || A canoe expedition into a remote corner of the SCOTTISH HIGHLANDS</a></p>-->
         <p>I never watched the video but since then I was haunted by this wish of owning a Kayak.
-      </div>
+        <p>Corrigir o texto pq não está lá grande coisa, mas não me apetece agora</p>
+        </div>
       <!--
       <div class="god-container">
         <img class="god" src="src/images/Miguel.png" alt="Miguelito"/>
@@ -54,14 +60,23 @@
     <section class="sub-section2" id="plans4future">
       <div class="plns4ft">
         <h2>Plans 4 the Future</h2>
+
+        <div class="trip-container"> 
+          <div class="trip">
+            <div class="map" id="map-test"></div>
+            <h3>Teste Leaflet</h3>
+            <p class="subtext">Teste </p>
+            <p class="subtext">Isto vai ficar interessante 🐐 </p>
+          </div>
+        </div>
+        
+
         <div class="trip-container"> 
           <div class="trip">
             <img class="trip-image" src="src/images/med1.jpg" alt="Mediterraneo1">
             <h3>Possível viagem no Mediterrâneo 1</h3>
+            <hr/> <!-- opcional : depois decidir se uso ou não -->
             <p class="subtext">Itinerário </p>
-            <!-- 
-            <hr/> 
-            <p class="subtext"><a href=" " Cenas </a></p>-->
           </div>
         </div>
 
@@ -110,6 +125,13 @@
       </div>
     </section>
 
+    <section class="sub-section2" id="daysWhenIKayaked">
+      <h2>I kayaked in:</h2>
+      <p>Meter um CSS de jeito nisto</p>
+      <p>- 17/07/2022, Praia Fluvial de Adaúfe</p>
+      <p>- 22/08/2023, Praia Fluvial de Adaúfe</p>
+    </section>
+
     <footer>
       <!--<h2>
         Follow my journey:   
@@ -122,6 +144,7 @@
     </footer>
 
     <script src="src/script.js"></script>
+    <script src="src/maps.js"></script>
   </body>
 </html>  
 
